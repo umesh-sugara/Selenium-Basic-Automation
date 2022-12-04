@@ -14,8 +14,8 @@ time.sleep(3)
 
 
 def signin():
-    mailid="explorersera@gmail.com"
-    password = "Umesh@1234"
+    mailid=<"Mail-Id">
+    password = <"Password">
 
     signin= driver.find_element(By.LINK_TEXT, "Sign in")
     signin.click()
